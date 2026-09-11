@@ -34,3 +34,5 @@ git -C $mirror push origin main
 ```
 
 The current mirror was prepared from the local snapshot registry. It contains 85 snapshot records and 108 commit/dependency index files.
+
+The detailed repository contract and capture commands are also available at [`source_repositories/README.md`](source_repositories/README.md).
