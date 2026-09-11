@@ -23,4 +23,14 @@ Use the full `source_snapshot_id` from `manifest.jsonl`. The GitHub mirror is an
 
 When a new snapshot is captured locally, copy the updated `manifest.jsonl`, `commit_benchmark_pipeline/inputs/commit_histories/`, and README changes into this repository. Commit and push those metadata changes to GitHub. Sync the complete snapshot separately to the fixed-server backup and record the SHA-256 of `manifest.jsonl` in the commit message or release notes.
 
+```powershell
+$mirror = 'E:\path\to\source_repositories-index'
+Copy-Item source_repositories\manifest.jsonl "$mirror\manifest.jsonl" -Force
+New-Item -ItemType Directory -Force "$mirror\commit_benchmark_pipeline\inputs\commit_histories" | Out-Null
+Copy-Item commit_benchmark_pipeline\inputs\commit_histories\* "$mirror\commit_benchmark_pipeline\inputs\commit_histories" -Force
+git -C $mirror add README.md manifest.jsonl commit_benchmark_pipeline\inputs\commit_histories
+git -C $mirror commit -m "Update source snapshot index"
+git -C $mirror push origin main
+```
+
 The current mirror was prepared from the local snapshot registry. It contains 85 snapshot records and 108 commit/dependency index files.
