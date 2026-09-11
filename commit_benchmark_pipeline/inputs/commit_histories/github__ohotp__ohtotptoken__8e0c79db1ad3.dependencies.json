@@ -1,0 +1,19 @@
+{
+  "schema_version": "repository-dependency-capture/v1",
+  "policy_version": "commit-history-build-validation/v1",
+  "root_snapshot_id": "github__ohotp__ohtotptoken__8e0c79db1ad3",
+  "max_depth": 2,
+  "status": "complete",
+  "captured": [
+    {
+      "parent_snapshot_id": "github__ohotp__ohtotptoken__8e0c79db1ad3",
+      "remote_url": "https://github.com/nanopb/nanopb",
+      "snapshot_id": "github__nanopb__nanopb__b95dade99e20",
+      "required_commits": [
+        "48ceadfdf1e6446f073e2cae83f18fe78861e0e9"
+      ],
+      "depth": 1
+    }
+  ],
+  "unresolved": []
+}

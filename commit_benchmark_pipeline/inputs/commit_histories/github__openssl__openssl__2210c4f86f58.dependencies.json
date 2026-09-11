@@ -1,0 +1,104 @@
+{
+  "schema_version": "repository-dependency-capture/v1",
+  "root_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+  "status": "complete",
+  "captured": [
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/cloudflare/quiche",
+      "snapshot_id": "github__cloudflare__quiche__bedf80441d8c",
+      "required_commits": [
+        "7ab6a55cfe471267d61e4d28ba43d41defcd87e0"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/openssl/fuzz-corpora",
+      "snapshot_id": "github__openssl__fuzz-corpora__cde720c08c44",
+      "required_commits": [
+        "e77927ec1b3b3633d6fd2d905df6fdc59810c9e0"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/gost-engine/engine",
+      "snapshot_id": "github__gost-engine__engine__f087103509ff",
+      "required_commits": [
+        "ede3886cc5507c2ba000ab9b057f198da03e8766"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/krb5/krb5",
+      "snapshot_id": "github__krb5__krb5__ba2327275427",
+      "required_commits": [
+        "aa9b4a2a64046afd2fab7cb49c346295874a5fb6"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/open-quantum-safe/oqs-provider.git",
+      "snapshot_id": "github__open-quantum-safe__oqs-provider__ca82e46407c6",
+      "required_commits": [
+        "0ec51eca39d72867f309878f5bb9002f1c3e07fb"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/pyca/cryptography.git",
+      "snapshot_id": "github__pyca__cryptography__167e31bd321a",
+      "required_commits": [
+        "7e33b0e7739d633c77b8c478620167f693ed13f4"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/tlsfuzzer/python-ecdsa",
+      "snapshot_id": "github__tlsfuzzer__python-ecdsa__f35b4d505e2a",
+      "required_commits": [
+        "4de8d5bf89089d1140eb99aa5d7eb2dc8e6337b6"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/tlsfuzzer/tlsfuzzer",
+      "snapshot_id": "github__tlsfuzzer__tlsfuzzer__081bfe71e0e1",
+      "required_commits": [
+        "dbd56c149072e656ca8d6a43a59588f3e7513da2"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/tlsfuzzer/tlslite-ng",
+      "snapshot_id": "github__tlsfuzzer__tlslite-ng__88505a8a3d7f",
+      "required_commits": [
+        "771e9f59d639dbb0e2fa8e646c8e588405d3903e"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "remote_url": "https://github.com/google/wycheproof",
+      "snapshot_id": "github__google__wycheproof__9ac2b9729896",
+      "required_commits": [
+        "2196000605e45d91097147c9c71f26b72af58003"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__cloudflare__quiche__bedf80441d8c",
+      "remote_url": "https://github.com/google/boringssl.git",
+      "snapshot_id": "github__google__boringssl__7d80d5a1581b",
+      "required_commits": [
+        "f1c75347daa2ea81a941e953f2263e0a4d970c8d"
+      ]
+    },
+    {
+      "parent_snapshot_id": "github__gost-engine__engine__f087103509ff",
+      "remote_url": "https://github.com/provider-corner/libprov.git",
+      "snapshot_id": "github__provider-corner__libprov__d922ad75259a",
+      "required_commits": [
+        "8a126e09547630ef900177625626b6156052f0ee"
+      ]
+    }
+  ],
+  "unresolved": []
+}

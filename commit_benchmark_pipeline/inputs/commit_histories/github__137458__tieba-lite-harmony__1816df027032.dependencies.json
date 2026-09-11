@@ -1,0 +1,9 @@
+{
+  "schema_version": "repository-dependency-capture/v1",
+  "policy_version": "commit-history-build-validation/v1",
+  "root_snapshot_id": "github__137458__tieba-lite-harmony__1816df027032",
+  "max_depth": 2,
+  "status": "complete",
+  "captured": [],
+  "unresolved": []
+}

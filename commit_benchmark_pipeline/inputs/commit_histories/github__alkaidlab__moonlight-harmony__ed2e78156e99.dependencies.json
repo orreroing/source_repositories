@@ -1,0 +1,171 @@
+{
+  "schema_version": "repository-dependency-capture/v1",
+  "policy_version": "commit-history-build-validation/v1",
+  "root_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+  "max_depth": 2,
+  "status": "incomplete",
+  "captured": [
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "remote_url": "https://github.com/qiin2333/moonlight-common-c.git",
+      "snapshot_id": "github__qiin2333__moonlight-common-c__dde3e347b14e",
+      "required_commits": [
+        "07a763bfacbc964f2f049dceb1fb39cef19420b5",
+        "1a0c1141ddd207370c3fec9c4463d85fbc4fffb0",
+        "23433e6120a15c9b70e952af3757eaa8e9f0ae4d",
+        "250aea9f49acca6b98d1b4109b4257648230b47e",
+        "2b913d47a4d29b0825c3fe748493fd336d80a241",
+        "3468b0cf3c3d509a9995fdbd6467bfffd0c430bc",
+        "37953cdba24f47177b97478178837b29ba94c81a",
+        "3a3ae36d58ca3ce3a485567ab61d1f2142d1ec3b",
+        "3dde0f103aeaa5c7396a676159887545b77414e5",
+        "488bbf93aa842eb245ba91a9c61cbe030145af65",
+        "6986208a871f90c3f5d026ccbdf45c977dd1f724",
+        "72733e3a47fc7823e7e0b1b0cef2e3d101b0399b",
+        "763013efc1e5f08d5142f2b4acbd0d0181ad6547",
+        "7bfa0c1e79d55871c519287c441a629b9eeed045",
+        "7ed14144d1aef1d6d234ea98b17eedc083a5ac36",
+        "80f240852d7bed78161cd2862226119b91a3f7bb",
+        "8a5d9562f2d557f4acf6e2f722e86502a68e5dd7",
+        "c4fb3c1cfacd0de87806e967b4af5f049ffe8e87",
+        "d07a7e46fc5f47d040abac554de632bf5be46c66",
+        "d22aa7715d77594ba512e48c698460d321f87356",
+        "d41a6305a5319a7223de21b5d0bda18f268b152a",
+        "d4d410015ea7e7cdf3f3442ae2779dfe6865b22e",
+        "e9319eec44f6c866b7c5a2b1fc342f34d3d42612",
+        "ff7abeac1d065821b432d5a64fe8f823fe44ed1a"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "remote_url": "https://github.com/ohos-rs/ohos-openssl.git",
+      "snapshot_id": "github__ohos-rs__ohos-openssl__fd5e8e3edee9",
+      "required_commits": [
+        "c0935238f7e155f00391b95adcac63fa55856f1f"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "remote_url": "https://github.com/aubio/aubio.git",
+      "snapshot_id": "github__aubio__aubio__5abe196d6c02",
+      "required_commits": [
+        "ad5cf975aed08cc4562dd008cf9f83b12b82ffb8",
+        "e559ff17f20b0edfae1b9a4ea84a29fc207aa2e4"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "remote_url": "https://gitee.com/ohos-rs/ohos-openssl.git",
+      "snapshot_id": "gitee__ohos-rs__ohos-openssl__fd5e8e3edee9",
+      "required_commits": [
+        "c0935238f7e155f00391b95adcac63fa55856f1f"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "remote_url": "https://github.com/moonlight-stream/moonlight-common-c.git",
+      "snapshot_id": "github__moonlight-stream__moonlight-common-c__1566851ee134",
+      "required_commits": [
+        "2a5a1f3e8a57cbbb316ed7dfff3a3965c2e77d25",
+        "488bbf93aa842eb245ba91a9c61cbe030145af65"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__qiin2333__moonlight-common-c__dde3e347b14e",
+      "remote_url": "https://github.com/cgutman/enet.git",
+      "snapshot_id": "github__cgutman__enet__d6510e0f5689",
+      "required_commits": [
+        "0eb84dcca830dcee950a12a48f63062d950d03d0",
+        "115a10baa1d7f291ff5b870765610fd3b4a6e43c",
+        "78cc9b4b03bdd4f95c277391cac6e0951407072b",
+        "aca87840b57f045a1f7f9299e4b1b9b8e2a5e2f1",
+        "c7353c059373f8d3fc83d451f8f1a477be3dc94e"
+      ],
+      "depth": 2
+    },
+    {
+      "parent_snapshot_id": "github__qiin2333__moonlight-common-c__dde3e347b14e",
+      "remote_url": "https://github.com/simd-everywhere/simde-no-tests.git",
+      "snapshot_id": "github__simd-everywhere__simde-no-tests__46f346d73eca",
+      "required_commits": [
+        "595b743dcebc05756244a66dcd78e9d64c07b3b7"
+      ],
+      "depth": 2
+    },
+    {
+      "parent_snapshot_id": "github__qiin2333__moonlight-common-c__dde3e347b14e",
+      "remote_url": "https://github.com/sleepybishop/nanors.git",
+      "snapshot_id": "github__sleepybishop__nanors__516a79aee79e",
+      "required_commits": [
+        "17fc7d61afb2fdd9a9aff38fbd7d4f2ff73a4508",
+        "b1e3c22ca0cdc0bb83e3cd6ed1a2fc77869ed99a"
+      ],
+      "depth": 2
+    },
+    {
+      "parent_snapshot_id": "github__ohos-rs__ohos-openssl__fd5e8e3edee9",
+      "remote_url": "https://github.com/openssl/openssl",
+      "snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "required_commits": [
+        "2f33265039cdbd0e4589c80970e02e208f3f94d2"
+      ],
+      "depth": 2
+    },
+    {
+      "parent_snapshot_id": "gitee__ohos-rs__ohos-openssl__fd5e8e3edee9",
+      "remote_url": "https://github.com/openssl/openssl",
+      "snapshot_id": "github__openssl__openssl__2210c4f86f58",
+      "required_commits": [
+        "2f33265039cdbd0e4589c80970e02e208f3f94d2"
+      ],
+      "depth": 2
+    },
+    {
+      "parent_snapshot_id": "github__moonlight-stream__moonlight-common-c__1566851ee134",
+      "remote_url": "https://github.com/cgutman/enet.git",
+      "snapshot_id": "github__cgutman__enet__6839b00a5063",
+      "required_commits": [
+        "115a10baa1d7f291ff5b870765610fd3b4a6e43c",
+        "dea6fb5414b180908b58c0293c831105b5d124dd"
+      ],
+      "depth": 2
+    }
+  ],
+  "unresolved": [
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "commit": "fefebcea97ff86b6b87b6075f5aca120f5576a36",
+      "path": "nativelib/src/main/cpp/aubio",
+      "sha": "e559ff17f20b0edfae1b9a4ea84a29fc207aa2e4",
+      "reason": "gitlink_has_no_matching_url"
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "commit": "4e7600374f45fc013aa667bda86933cbe89622d7",
+      "path": "nativelib/src/main/cpp/aubio",
+      "sha": "e559ff17f20b0edfae1b9a4ea84a29fc207aa2e4",
+      "reason": "gitlink_has_no_matching_url"
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "url": "https://github.com/qiin2333/moonlight-common-c.git",
+      "path": "nativelib/src/main/cpp/moonlight-common-c",
+      "sha": "338d3ac27cf69c25c39df8e4bf6b0ed7ec628127",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 338d3ac27cf69c25c39df8e4bf6b0ed7ec628127"
+    },
+    {
+      "parent_snapshot_id": "github__alkaidlab__moonlight-harmony__ed2e78156e99",
+      "url": "https://github.com/qiin2333/moonlight-common-c.git",
+      "path": "nativelib/src/main/cpp/moonlight-common-c",
+      "sha": "73c5bac3e68005d426586c57d8bc820a919df64b",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 73c5bac3e68005d426586c57d8bc820a919df64b"
+    }
+  ]
+}

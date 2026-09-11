@@ -1,0 +1,9 @@
+{
+  "schema_version": "repository-dependency-capture/v1",
+  "policy_version": "commit-history-build-validation/v1",
+  "root_snapshot_id": "github__chenlvin__cloudmusic-harmonyosnext__811396016531",
+  "max_depth": 2,
+  "status": "complete",
+  "captured": [],
+  "unresolved": []
+}

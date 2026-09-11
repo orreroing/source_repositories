@@ -1,0 +1,196 @@
+{
+  "schema_version": "repository-dependency-capture/v1",
+  "policy_version": "commit-history-build-validation/v1",
+  "root_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+  "max_depth": 2,
+  "status": "incomplete",
+  "captured": [
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "remote_url": "https://github.com/xfz347/Clash.Meta.git",
+      "snapshot_id": "github__xfz347__clash.meta__f0a5641052f2",
+      "required_commits": [
+        "53b2dbba62d298a6abbec23821f26eb538c50c91",
+        "69179cd5be284e53daac85435d5b72ebe2d8e66f",
+        "86df299685fbc2529dd7c3390dd8808b23fa1345",
+        "98ca8a7bf1737001d5488baf93223c9878e532a7",
+        "db7a0474b5c2f96c22a97a50b73eb56a1e56f2b9"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "remote_url": "https://github.com/likuai2010/gvisor-ohos.git",
+      "snapshot_id": "github__likuai2010__gvisor-ohos__3e7e1b053f5c",
+      "required_commits": [
+        "5857f47bd43bbf1943b08add4509dda44ba0ce67",
+        "589babc14566eb4aba327b50b34c2e478eb99f25",
+        "82104eaba946b7cc463b87648af9724d3f268537"
+      ],
+      "depth": 1
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "remote_url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "snapshot_id": "gitee__xiaobai-studio__xb_components__48a1d821693e",
+      "required_commits": [
+        "048a1ba1a3a00878ca7578bfe5356f75cee03f7d",
+        "16f56aefb72ce242528db23adcd545ffa5a752cf",
+        "1aedfe3e12fbaad3777482068535c72e9278fb36",
+        "3cda5f11bbc154bde1026d93d387e6c791c1658a",
+        "428e7b17aff350db70d25b85df561c718dd702ab",
+        "4ac75f30998a7177bcf570a0e3d5d47f24c8148a",
+        "533ae67889f1d23fad8c49f2a35fdf3432574e5d",
+        "55efa4d59785a94c2a9ff06010e1874c7fb30107",
+        "6177685a81b546b58de4867bb3ec465949cf5b53",
+        "691078082033c6635246eae6b2ebb35dca998351",
+        "705618d7f6060ab93b39e4a3feef058c8b0a17a1",
+        "73c3be365dc902db02ed2cabe470607e6f923d2c",
+        "76751e167d2e19fc1a9d03a02c25d60407919493",
+        "7a53b4e2203be265422d69c5c6643f24331c3ec2",
+        "819f49da5e42bf33570effb85153b7e649625877",
+        "83dd33b414be9b3fa8c382c9f0782603bf0fdf75",
+        "8c26b26aa29e8bbb4f01feb621a88989313f200a",
+        "920d67a4fafc185e3c057a3ee1f2902d6e6870ea",
+        "aef64f4eccba1fcb506639fad274b0c0081234a3",
+        "b2b988ee94c1ef8658e1112c934a7adb222ee477",
+        "b4ef9063cde50418b87134892c0b861c8da33e05",
+        "c20516c23e950eaf558ab005ed57e58033600bca",
+        "cfa52aeb1ad0a6538331d1db6954bc3617e4840a",
+        "dbcd8904245c9f9f72d87be308b67fd22b1d7274",
+        "fbb40a9834dd664528f7b9f8a2dea2cc8131db40"
+      ],
+      "depth": 1
+    }
+  ],
+  "unresolved": [
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://github.com/xfz347/Clash.Meta.git",
+      "path": "proxy_core/src/flclash/core",
+      "sha": "1638edba1320fd833a36d4f46ada95e3f06cf25b",
+      "commit_count": 6,
+      "error": "fatal: remote error: upload-pack: not our ref 1638edba1320fd833a36d4f46ada95e3f06cf25b"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://github.com/xfz347/Clash.Meta.git",
+      "path": "proxy_core/src/flclash/core",
+      "sha": "42be9d7bd23ff116fb08f7085f31f3aebc4dced2",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 42be9d7bd23ff116fb08f7085f31f3aebc4dced2"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://github.com/likuai2010/gvisor-ohos.git",
+      "path": "proxy_core/src/flclash/gvisor-ohos",
+      "sha": "73e918980a3e7d997aed8f9a8698059a8baa19a4",
+      "commit_count": 5,
+      "error": "fatal: remote error: upload-pack: not our ref 73e918980a3e7d997aed8f9a8698059a8baa19a4"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "00e562c56131ad996e4f591fe1c96deab9536617",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 00e562c56131ad996e4f591fe1c96deab9536617"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "018f181398b3a0aabc7e428aed24c872aabe8f42",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 018f181398b3a0aabc7e428aed24c872aabe8f42"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "1c3df2b269109b70e7e20e28bfb6150d1a4af95d",
+      "commit_count": 8,
+      "error": "fatal: remote error: upload-pack: not our ref 1c3df2b269109b70e7e20e28bfb6150d1a4af95d"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "3043bcece4c40eac7ce83307292935e8fd222b2b",
+      "commit_count": 6,
+      "error": "fatal: remote error: upload-pack: not our ref 3043bcece4c40eac7ce83307292935e8fd222b2b"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "3abae5bef49df45b6d24b899f43ee3aa020de2b7",
+      "commit_count": 14,
+      "error": "fatal: remote error: upload-pack: not our ref 3abae5bef49df45b6d24b899f43ee3aa020de2b7"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "42c16296963ebd4151e1cd58497e39edf2332ce3",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 42c16296963ebd4151e1cd58497e39edf2332ce3"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "8bbaa6be661162f8cabc2159bbeccafda7676315",
+      "commit_count": 3,
+      "error": "fatal: remote error: upload-pack: not our ref 8bbaa6be661162f8cabc2159bbeccafda7676315"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "902bd6b2c3d1f4dd23526d441d7897b9dab1d825",
+      "commit_count": 2,
+      "error": "fatal: remote error: upload-pack: not our ref 902bd6b2c3d1f4dd23526d441d7897b9dab1d825"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "9366c75895e7a369371cd25518ef5cf7fc140279",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref 9366c75895e7a369371cd25518ef5cf7fc140279"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "aa2a3908bd9c4bbf6031e97ca4f14db0afbc38f2",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref aa2a3908bd9c4bbf6031e97ca4f14db0afbc38f2"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "bf72f40cda571b768c75371a72fa4b31b2eda6b5",
+      "commit_count": 1,
+      "error": "fatal: remote error: upload-pack: not our ref bf72f40cda571b768c75371a72fa4b31b2eda6b5"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "ddc6af9518a3e3bc6b8566f9b5ae6cf215a74ab0",
+      "commit_count": 6,
+      "error": "fatal: remote error: upload-pack: not our ref ddc6af9518a3e3bc6b8566f9b5ae6cf215a74ab0"
+    },
+    {
+      "parent_snapshot_id": "github__xiaobaigroup__clashbox__38a938826550",
+      "url": "https://gitee.com/xiaobai-studio/xb_components.git",
+      "path": "xb_components",
+      "sha": "e42354a94747f8073ab6999a1027cf8987f42d29",
+      "commit_count": 2,
+      "error": "fatal: remote error: upload-pack: not our ref e42354a94747f8073ab6999a1027cf8987f42d29"
+    }
+  ]
+}
